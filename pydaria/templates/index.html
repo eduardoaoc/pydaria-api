@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}{{config.get('TITLE')}}{% endblock %}
+
+{% block navbar %}
+<div class="navbar">
+<div class="navbar-header">
+    <a class="navbar-brand" href="#">
+    <img alt="Brand" src="/static/b.jpg">
+    </a>
+</div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<h1>{{config.get('TITLE')}}</h1>
+
+<div class="jumbotron">
+<ul class="list-group">
+    {% for product in products %}
+    <li class="list-group-item">
+        <a href="{{url_for('product', product_id=product.id)}}">{{product.name}}- {{ "%0.2f" | format(product.price)}}</a>
+    </li>
+    {% endfor %}
+</ul>
+</div>
+
+</div>
+{% endblock %}
