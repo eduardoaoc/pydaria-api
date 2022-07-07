@@ -1,5 +1,5 @@
 from flask import render_template, abort 
-from pydaria.ext.database import Products
+from ext.database import Products
 
 
 def init_app(app):        

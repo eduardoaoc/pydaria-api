@@ -1,4 +1,4 @@
-from pydaria.ext import configuration
+from ext import configuration
 from flask import Flask
 
 def minimal_app():
@@ -8,7 +8,7 @@ def minimal_app():
 
 
 def create_app():
-    app= minimal_app
+    app= minimal_app()
     configuration.load_extensions(app)
     return app
     

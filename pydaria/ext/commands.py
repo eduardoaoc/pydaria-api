@@ -1,6 +1,5 @@
 import click
 from ext.database import db
-from ext.auth import create_user
 from ext.database import Products
 
 

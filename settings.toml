@@ -1,0 +1,12 @@
+[default]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
+TITLE = "Pydaria"
+SECRET_KEY = "Spkedsap"
+EXTENSIONS= [
+    "ext.appearance",
+    "ext.database",
+    "ext.auth",
+    "ext.admin",
+    "ext.commands",
+    "blueprints.views"
+]
