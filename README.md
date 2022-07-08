@@ -1,6 +1,6 @@
 # Website/Api - Pydaria
 
-[![NPM](https://img.shields.io/npm/l/react)]() 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardoaoc/pydaria-api/blob/main/LICENSE) 
 
 # About the Project
 
