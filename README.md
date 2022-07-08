@@ -4,6 +4,17 @@
 
 # About the Project
 
+Esse projeto trata-se de um website api no qual podemos listar vários tipos de produtos, nesse caso
+foi escolhido produtos de padaria. 
+- Autenticação de login
+- Edição e criação de novos produtos
+- Listagem de todos os produtos
+
+This project is a website api in which we can list various types of products, in this case 
+was chosen bakery products.   
+- Login authentication 
+- Editing and creation of new products   
+- Listing of all products.
 
 # Layout
 ## ínicio - Homepage
